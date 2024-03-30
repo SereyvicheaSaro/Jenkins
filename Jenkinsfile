@@ -11,7 +11,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 echo 'Code checkout.'
-                git branch: 'master', url: 'https://github.com/SereyvicheaSaro/Jenkins/'
+                git branch: 'midterm', url: 'https://github.com/SereyvicheaSaro/Jenkins/'
             }
         }
         stage('Build App') {
