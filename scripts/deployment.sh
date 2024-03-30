@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#change time zone
+export TZ="Asia/Phnom_Penh"
+
 # Git Log Pretty Format
 COMMITTER=$(git log -1 --pretty=format:%cN)
 COMMIT_MSG=$(git log -1 --pretty=format:%s)
